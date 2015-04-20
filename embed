@@ -1,0 +1,19 @@
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = '//connect.facebook.net/en_US/sdk.js';
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<div class='fb-page' data-href='https://www.facebook.com/GameRant' data-hide-cover='false' data-show-facepile='true' data-show-posts='true'><div class='fb-xfbml-parse-ignore'><blockquote cite='https://www.facebook.com/GameRant'><a href='https://www.facebook.com/GameRant'>Game Rant</a></blockquote></div></div>

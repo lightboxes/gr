@@ -1,0 +1,9 @@
+{
+  "firebase": "biglikes",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
